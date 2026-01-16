@@ -4,14 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cổng Thông Tin Đào Tạo - Cao Đẳng Việt Mỹ Hà Nội</title>
+    
+    <link rel="icon" href="https://raw.githubusercontent.com/duongcanhquan/image/main/Logo%20Cao%20%C4%91%E1%BA%B3ng%20Vi%E1%BB%87t%20M%E1%BB%B9%20-%20b%E1%BA%A3n%20chu%E1%BA%A9n%202025-02.png" type="image/png">
 
-    <link rel="icon"
-      href="https://raw.githubusercontent.com/duongcanhquan/image/main/Logo%20Cao%20%C4%91%E1%BA%B3ng%20Vi%E1%BB%87t%20M%E1%BB%B9%20-%20b%E1%BA%A3n%20chu%E1%BA%A9n%202025-02.png"
-      type="image/png">
+    <style>
+        /* CSS tối giản để load cực nhanh */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f8f9fa;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            overflow: hidden;
+        }
+        .loader-box { text-align: center; }
+        /* Vòng xoay Loading */
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid #e9ecef;
+            border-top: 4px solid #0d6efd; /* Màu xanh thương hiệu */
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin: 0 auto 15px auto;
+        }
+        p { color: #6c757d; font-size: 14px; margin: 0; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    </style>
 
-    <!-- Redirect -->
-    <meta http-equiv="refresh"
-          content="0;url=https://script.google.com/macros/s/AKfycbxhfg5mVi2IvQWbDN8gwvk7lIfRpAnE1omiofFDWgPXXvKX_CNNe-Gz2Z6iaFTsTmv6/exec">
+    <script>
+        // --- LINK PROJECT 1 CỦA BẠN ---
+        var targetUrl = "https://script.google.com/macros/s/AKfycbxhfg5mVi2IvQWbDN8gwvk7lIfRpAnE1omiofFDWgPXXvKX_CNNe-Gz2Z6iaFTsTmv6/exec";
+
+        // CHUYỂN HƯỚNG SIÊU TỐC
+        // Chạy ngay lập tức, không lưu trang này vào lịch sử (Back sẽ không bị quay lại đây)
+        window.location.replace(targetUrl);
+    </script>
 </head>
+<body>
+    <div class="loader-box">
+        <div class="spinner"></div>
+        <p>Đang kết nối hệ thống...</p>
+    </div>
 
+    <noscript>
+        <meta http-equiv="refresh" content="0;url=https://script.google.com/macros/s/AKfycbxhfg5mVi2IvQWbDN8gwvk7lIfRpAnE1omiofFDWgPXXvKX_CNNe-Gz2Z6iaFTsTmv6/exec">
+    </noscript>
+</body>
 </html>
